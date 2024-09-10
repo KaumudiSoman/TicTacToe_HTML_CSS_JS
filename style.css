@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to bottom right, #EEE8D3, #F50000,#0044FF);
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 5px;
+    row-gap: 5px;
+    background-color: black;
+    width: 310px;
+    background-image: linear-gradient(to bottom right, #0044FF, #F50000, #EEE8D3);
+}
+
+.box {
+    border: none;
+    font-size: 60px;
+}
+
+.reset {
+    margin-top: 50px;
+    height: 40px;
+    width: 100px;
+    background-color: #9C528B;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
